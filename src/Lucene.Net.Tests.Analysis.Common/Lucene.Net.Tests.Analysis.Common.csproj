@@ -87,12 +87,14 @@
     <Compile Include="Analysis\Compound\TestCompoundWordTokenFilter.cs" />
     <Compile Include="Analysis\Compound\TestDictionaryCompoundWordTokenFilterFactory.cs" />
     <Compile Include="Analysis\Compound\TestHyphenationCompoundWordTokenFilterFactory.cs" />
+    <Compile Include="Analysis\Core\TestAllAnalyzersHaveFactories.cs" />
     <Compile Include="Analysis\Core\TestAnalyzers.cs" />
     <Compile Include="Analysis\Core\TestBugInSomething.cs" />
     <Compile Include="Analysis\Core\TestClassicAnalyzer.cs" />
     <Compile Include="Analysis\Core\TestDuelingAnalyzers.cs" />
     <Compile Include="Analysis\Core\TestFactories.cs" />
     <Compile Include="Analysis\Core\TestKeywordAnalyzer.cs" />
+    <Compile Include="Analysis\Core\TestRandomChains.cs" />
     <Compile Include="Analysis\Core\TestStandardAnalyzer.cs" />
     <Compile Include="Analysis\Core\TestStopAnalyzer.cs">
       <SubType>Code</SubType>
@@ -192,6 +194,7 @@
     <Compile Include="Analysis\Lv\TestLatvianAnalyzer.cs" />
     <Compile Include="Analysis\Lv\TestLatvianStemFilterFactory.cs" />
     <Compile Include="Analysis\Lv\TestLatvianStemmer.cs" />
+    <Compile Include="Analysis\Miscellaneous\PatternAnalyzerTest.cs" />
     <Compile Include="Analysis\Miscellaneous\TestASCIIFoldingFilter.cs" />
     <Compile Include="Analysis\Miscellaneous\TestCapitalizationFilter.cs" />
     <Compile Include="Analysis\Miscellaneous\TestCapitalizationFilterFactory.cs" />
@@ -220,6 +223,7 @@
     <Compile Include="Analysis\Miscellaneous\TestScandinavianFoldingFilterFactory.cs" />
     <Compile Include="Analysis\Miscellaneous\TestScandinavianNormalizationFilter.cs" />
     <Compile Include="Analysis\Miscellaneous\TestScandinavianNormalizationFilterFactory.cs" />
+    <Compile Include="Analysis\Miscellaneous\TestSingleTokenTokenFilter.cs" />
     <Compile Include="Analysis\Miscellaneous\TestStemmerOverrideFilter.cs" />
     <Compile Include="Analysis\Miscellaneous\TestStemmerOverrideFilterFactory.cs" />
     <Compile Include="Analysis\Miscellaneous\TestTrimFilter.cs" />
@@ -303,6 +307,7 @@
     <Compile Include="Analysis\Tr\TestTurkishLowerCaseFilterFactory.cs" />
     <Compile Include="Analysis\Util\BaseTokenStreamFactoryTestCase.cs" />
     <Compile Include="Analysis\Util\StringMockResourceLoader.cs" />
+    <Compile Include="Analysis\Util\TestAnalysisSPILoader.cs" />
     <Compile Include="Analysis\Util\TestCharacterUtils.cs" />
     <Compile Include="Analysis\Util\TestCharArrayIterator.cs" />
     <Compile Include="Analysis\Util\TestCharArrayMap.cs" />
